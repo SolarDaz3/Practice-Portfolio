@@ -29,6 +29,10 @@ p{
     flex: 1;
 }
 
+.container{
+    padding: 50px 0;
+}
+
 .row{
     width: 100%;
     max-width: 600px;
@@ -38,6 +42,12 @@ p{
 .text-purple{
     color: #6030b1;
 }
+
+section:nth-child(even){
+    background-color: #f8f8f8;
+}
+
+
 
 /* NAVIGATION BAR */
 
@@ -85,6 +95,10 @@ text-decoration: none;
     color:#6030b1;
     margin: 0 12px;
     font-weight: bold;
+}
+
+.section__title{
+    margin-bottom: 20px;
 }
 
 /* about me*/
@@ -139,7 +153,7 @@ text-align: center;
 }
 
 .about-me__links{
-    margin-bottom: 12px;
+ margin-bottom: 12px;
 }
 
 .about-me__link{
