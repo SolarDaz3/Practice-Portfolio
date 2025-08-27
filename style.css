@@ -184,9 +184,16 @@ width: 100%;
 max-width: 100px;
 }
 
+.language{
+    width:25%;
+}
 .language__img--wrapper{
-    width: 25%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.language__list{
+    display: flex;
+    width: 100%;
 }
