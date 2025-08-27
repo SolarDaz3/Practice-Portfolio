@@ -47,6 +47,9 @@ section:nth-child(even){
     background-color: #f8f8f8;
 }
 
+.section__title{
+    margin-bottom: 20px ;
+}
 
 
 /* NAVIGATION BAR */
@@ -170,4 +173,20 @@ text-align: center;
 }
 .about-me__img{
     width: 100%;
+}
+
+
+
+/* TECH STACK */
+
+.language__img{
+width: 100%;
+max-width: 100px;
+}
+
+.language__img--wrapper{
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
